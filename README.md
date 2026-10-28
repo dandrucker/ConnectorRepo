@@ -27,12 +27,6 @@ curl -X PUT http://localhost:5229/workorders/1/status -H "Content-Type: applicat
 | POST | `/workorders` | Create a work order |
 | PUT | `/workorders/{id}/status` | Update status (Open, InProgress, Completed, Cancelled) |
 
-## Tests
-
-```bash
-dotnet test
-```
-
 ## Demo phases
 
 Each phase is tagged so you can step through it live.
